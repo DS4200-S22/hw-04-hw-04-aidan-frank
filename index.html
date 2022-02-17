@@ -3,12 +3,30 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
+    <title> hw-04 </title>
 </head>
 
 
 <body>
 
+    <h1 class = 'centered'> Event handling </h1>
 
+
+    <div id = "circles"> 
+        <svg class="svg" width="200" height="200" onclick="add_count()">
+            <circle id="circle_one" cx="100" cy="100" r="75"/>
+            <text id="text_counts" text-anchor="middle"> 0 </text>
+        </svg> 
+        <svg class="svg" width="200" height="200">
+            <circle id="circle_two" cx="100" cy="100" r="75"/>
+        </svg> 
+        <svg class="svg" width="200" height="200" onclick="change_visibility()">
+            <circle id="circle_three" cx="100" cy="100" r="75"/>
+        </svg> 
+    </div>
+
+    <script src="script.js"></script> 
 </body>
 
 </html>

@@ -1,0 +1,35 @@
+body {
+	font-family: "Arial";
+}
+
+#circles {
+	display:  inline-block;
+}
+
+.centered {
+	text-align: center;
+}
+
+#circle_one {
+	fill:  green;
+	stroke: black;
+	stroke-width: 10px;
+}
+
+#circle_two {
+	fill:  purple;
+}
+
+#circle_three {
+	fill:  pink;
+	stroke: black;
+	stroke-width: 10px;
+}
+
+#circle_two:hover {
+	fill:  purple;
+	stroke: black;
+	stroke-width: 10px;
+}
+
+
