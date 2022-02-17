@@ -32,4 +32,9 @@ body {
 	stroke-width: 10px;
 }
 
+#text_counts {
+	stroke-width="2px";
+	text-anchor="middle";
+}
+
 
